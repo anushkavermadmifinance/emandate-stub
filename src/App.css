@@ -1,0 +1,44 @@
+.centered {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button1, .button2 {
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.button1 {
+  background-color: #90ee90;
+}
+
+.button-gap {
+  width: 10px;
+}
+
+.button2 {
+  background-color: red;
+}
+
+.successPage, .failurePage {
+  margin-left: 20px;
+}
